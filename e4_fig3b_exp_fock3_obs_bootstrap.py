@@ -126,8 +126,8 @@ def scale_q(dataa):
 
 LAMBDAS = [-1, -0.5, 0, 0.5, 1]
 
-filepath_one = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\fock3_obs\14-30-28_ObservableMeasNonGauss.hdf5"
-filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\fock3_obs\14-36-12_ObservableMeasNonGauss.hdf5"
+filepath_one = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\fock3_obs\14-30-28_ObservableMeasNonGauss.hdf5"
+filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\fock3_obs\14-36-12_ObservableMeasNonGauss.hdf5"
 
 def read_hdf5_file_one(file_path):
     with h5py.File(file_path, "r") as hdf:

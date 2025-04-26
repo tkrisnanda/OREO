@@ -30,7 +30,7 @@ obs = obs[0:D,0:D]
 f = (np.max(np.linalg.eigvals(obs))).real
 print(f'f is {f}')
 
-filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig2 data\x2p2\12-05-02_ObservableMeasPS.hdf5"
+filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig2 data\x2p2\12-05-02_ObservableMeasPS.hdf5"
 
 file = h5py.File(filepath, "r")
 data = file["single_shot"]

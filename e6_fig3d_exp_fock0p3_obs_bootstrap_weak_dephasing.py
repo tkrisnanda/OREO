@@ -131,9 +131,9 @@ def scale_q(data):
 LAMBDAS = [-1, -0.5, 0, 0.5, 1]
 
 # 3 sets of data
-# filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\fock0p3_obs_weak_dephasing\11-52-32_ObservableMeasNonGauss.hdf5"
-# filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\fock0p3_obs_weak_dephasing\15-15-20_ObservableMeasNonGauss.hdf5"
-filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\fock0p3_obs_weak_dephasing\18-44-50_ObservableMeasNonGauss.hdf5"
+# filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\fock0p3_obs_weak_dephasing\11-52-32_ObservableMeasNonGauss.hdf5"
+# filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\fock0p3_obs_weak_dephasing\15-15-20_ObservableMeasNonGauss.hdf5"
+filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\fock0p3_obs_weak_dephasing\18-44-50_ObservableMeasNonGauss.hdf5"
 
 def read_hdf5_file(file_path):
     with h5py.File(file_path, "r") as hdf:
@@ -220,3 +220,5 @@ plt.show()
 # print(f'distance/std2 is {dist2}')
 
 
+
+# %%

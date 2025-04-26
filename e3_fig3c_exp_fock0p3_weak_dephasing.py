@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import time
 start_time = time.time()#checking how long the code takes
 
-filepath = r"C:\Users\tanju\Dropbox\PY\OREO\fig3 data\sparsewigner0p3\21-44-06_SparseWignerD6.hdf5"
+filepath = r"C:\Users\tanju\Dropbox\PY\Data\OREO\fig3 data\sparsewigner0p3\21-44-06_SparseWignerD6.hdf5"
 
 
 def read_hdf5_file(file_path):
