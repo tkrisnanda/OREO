@@ -14,21 +14,21 @@ Here are the codes for generating pulses and testing them:
 6. c2_...py tests the pulses generated in c1_...py for ideal cases without imperfections, as well as the whole sequence of the projection protocol
 
 Here are the codes for processing the experimental data and plotting the figures in our paper:
-7. d1_...py computes ideal values for <x>
-8. d2_...py processes exp data and plots <x> in Fig. 2
-9. d3_...py computes ideal values for <x^2>
-10. d4_...py processes exp data and plots <x^2> in Fig. 2
-11. d5_...py computes ideal values for <x^2+p>
-12. d6_...py processes exp data and plots <x^2+p> in Fig. 2
-13. d7_...py computes ideal values for <(x^2+p)^2>
-14. d8_...py processes exp data and plots <(x^2+p)^2> in Fig. 2
+7. d1_...py computes ideal values for <x> 
+8. d2_...py processes exp data and plots <x> in Fig. 2 
+9. d3_...py computes ideal values for <x^2> 
+10. d4_...py processes exp data and plots <x^2> in Fig. 2 
+11. d5_...py computes ideal values for <x^2+p> 
+12. d6_...py processes exp data and plots <x^2+p> in Fig. 2 
+13. d7_...py computes ideal values for <(x^2+p)^2> 
+14. d8_...py processes exp data and plots <(x^2+p)^2> in Fig. 2 
 
-15. e1_...py processes the Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 3 in Fig. 3a
-16. e2_...py processes the Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 0p3 (with strong dephasing) in Fig. 3c
-17. e3_...py processes the sparse Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 0p3 (with weak dephasing)
-18. e4_...py processes the observable data for Fock 3 in Fig. 3b
-19. e5_...py processes the observable data for Fock 0p3 (with strong dephasing) in Fig. 3b
-20. e6_...py processes the observable data for Fock 0p3 (with weak dephasing) in Fig. 3b
+15. e1_...py processes the Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 3 in Fig. 3a 
+16. e2_...py processes the Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 0p3 (with strong dephasing) in Fig. 3c 
+17. e3_...py processes the sparse Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for Fock 0p3 (with weak dephasing) 
+18. e4_...py processes the observable data for Fock 3 in Fig. 3b 
+19. e5_...py processes the observable data for Fock 0p3 (with strong dephasing) in Fig. 3b 
+20. e6_...py processes the observable data for Fock 0p3 (with weak dephasing) in Fig. 3b 
 
 21. f1_...py processes the sparse Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for vacuum in Fig. 4bi
 22. f2_...py processes the sparse Wigner tomography data, produces estimated state via Bayesian inference, plot the reconstructed Wigner for thermal state in Fig. 4ci
